@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // 🔹 MongoDB Connect
-mongoose.connect("mongodb+srv://prachitripathi:prachi123@cluster0.44vxpaq.mongodb.net/ecommerce")
+mongoose.connect("your_mongodb_url")
 .then(() => console.log("MongoDB Connected ✅"))
 .catch((err) => console.log(err));
 
